@@ -1,0 +1,59 @@
+main.page-body > section {
+    max-width: 1240px;
+    padding: 40px 20px;
+    margin: auto;
+}
+
+main.page-body > section.full {
+    max-width: 100%;
+    padding: 0px;
+}
+
+main.page-body > section > h2 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+div.iweb-grid {
+    margin-top: 2rem;
+}
+
+div.service-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid var(--icolor-gray);
+    text-align: center;
+}
+
+div.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+div.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--icolor-primary);
+}
+
+div.service-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+a.btn.contact {
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    background-color: var(--icolor-primary);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+    font-size: 1rem;
+}
