@@ -6,6 +6,28 @@
     --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+body {
+    font-family: 'Microsoft JhengHei', '微軟正黑體', 'PingFang TC', 'Heiti TC', 'Arial', sans-serif;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="password"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="time"],
+input[type="color"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+textarea,
+select,
+button,
+button.btn,
+a.btn {
+    font-family: 'Microsoft JhengHei', '微軟正黑體', 'PingFang TC', 'Heiti TC', 'Arial', sans-serif;
+}
+
 body.iweb {
     background: var(--icolor-lightgray);
 }
