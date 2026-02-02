@@ -88,6 +88,7 @@ a.whatsapplink {
     border-radius: 4px;
     margin-top: -16px;
     white-space: nowrap;
+    line-height: 1;
 }
 
 a.whatsapplink > i {
