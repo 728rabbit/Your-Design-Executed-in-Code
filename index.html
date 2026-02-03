@@ -140,90 +140,94 @@
                 </div>
 
                 <div class="column">
-                    <table border="1" cellpadding="8" cellspacing="0">
-                        <thead>
-                            <tr>
-                                <th>分類 Category</th>
-                                <th>項目 Item</th>
-                                <th>需求 Requirement</th>
-                                <th>說明 Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                    
-                            <!-- PHP -->
-                            <tr>
-                                <td>PHP</td>
-                                <td>版本 Version</td>
-                                <td>PHP 8.2+</td>
-                                <td>Laravel 12 需要 PHP 8.2 以上版本</td>
-                            </tr>
-                    
-                            <!-- Web Server -->
-                            <tr>
-                                <td>網頁伺服器 Web Server</td>
-                                <td>Apache</td>
-                                <td>2.4+</td>
-                                <td>需啟用 mod_rewrite</td>
-                            </tr>
-                            <tr>
-                                <td>網頁伺服器 Web Server</td>
-                                <td>Nginx</td>
-                                <td>任何現代版本</td>
-                                <td>正式環境建議使用</td>
-                            </tr>
-                    
-                            <!-- Database -->
-                            <tr>
-                                <td>資料庫 Database</td>
-                                <td>MySQL</td>
-                                <td>8.0+</td>
-                                <td>最常用、建議使用</td>
-                            </tr>
-                            <tr>
-                                <td>資料庫 Database</td>
-                                <td>MariaDB</td>
-                                <td>10.6+</td>
-                                <td>MySQL 相容替代方案</td>
-                            </tr>
-                            <tr>
-                                <td>資料庫 Database</td>
-                                <td>SQLite</td>
-                                <td>3.35+</td>
-                                <td>小型專案適用</td>
-                            </tr>
-                    
-                            <!-- PHP Extensions -->
-                            <tr>
-                                <td rowspan="15">PHP 擴充套件<br>PHP Extensions</td>
-                                <td>bcmath</td>
-                                <td>必須 Required</td>
-                                <td>高精度數值運算（例如金額計算）</td>
-                            </tr>
-                            <tr><td>ctype</td><td>必須 Required</td><td>字元類型檢查</td></tr>
-                            <tr><td>fileinfo</td><td>必須 Required</td><td>檔案類型辨識</td></tr>
-                            <tr><td>json</td><td>必須 Required</td><td>JSON 資料處理</td></tr>
-                            <tr><td>mbstring</td><td>必須 Required</td><td>多位元字串處理</td></tr>
-                            <tr><td>openssl</td><td>必須 Required</td><td>加密與安全通訊</td></tr>
-                            <tr><td>pdo</td><td>必須 Required</td><td>資料庫連線</td></tr>
-                            <tr><td>tokenizer</td><td>必須 Required</td><td>PHP 程式碼解析</td></tr>
-                            <tr><td>xml</td><td>必須 Required</td><td>XML 處理</td></tr>
-                            <tr><td>intl</td><td>必須 Required</td><td>多語系、日期、貨幣格式</td></tr>
-                            <tr><td>curl</td><td>必須 Required</td><td>呼叫外部 API</td></tr>
-                            <tr><td>session</td><td>必須 Required</td><td>Session 管理（登入狀態）</td></tr>
-                            <tr><td>hash</td><td>必須 Required</td><td>密碼雜湊加密</td></tr>
-                            <tr><td>gd</td><td>必須 Required</td><td>圖片處理（裁切、縮放）</td></tr>
-                            <tr><td>zip</td><td>建議 Recommended</td><td>ZIP 壓縮與解壓縮</td></tr>
- 
-                            <!-- OS -->
-                            <tr>
-                                <td>作業系統 OS</td>
-                                <td>Linux</td>
-                                <td>Ubuntu 22.04 LTS</td>
-                                <td>建議正式環境使用</td>
-                            </tr>
-                        </tbody>
-                    </table> 
+                    <div class="service-card" style="text-align:left;">
+                        <div class="iweb-editor">
+                            <table border="1" cellpadding="8" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>分類 Category</th>
+                                        <th>項目 Item</th>
+                                        <th>需求 Requirement</th>
+                                        <th>說明 Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                            
+                                    <!-- PHP -->
+                                    <tr>
+                                        <td>PHP</td>
+                                        <td>版本 Version</td>
+                                        <td>PHP 8.2+</td>
+                                        <td>Laravel 12 需要 PHP 8.2 以上版本</td>
+                                    </tr>
+                            
+                                    <!-- Web Server -->
+                                    <tr>
+                                        <td>網頁伺服器 Web Server</td>
+                                        <td>Apache</td>
+                                        <td>2.4+</td>
+                                        <td>需啟用 mod_rewrite</td>
+                                    </tr>
+                                    <tr>
+                                        <td>網頁伺服器 Web Server</td>
+                                        <td>Nginx</td>
+                                        <td>任何現代版本</td>
+                                        <td>正式環境建議使用</td>
+                                    </tr>
+                            
+                                    <!-- Database -->
+                                    <tr>
+                                        <td>資料庫 Database</td>
+                                        <td>MySQL</td>
+                                        <td>8.0+</td>
+                                        <td>最常用、建議使用</td>
+                                    </tr>
+                                    <tr>
+                                        <td>資料庫 Database</td>
+                                        <td>MariaDB</td>
+                                        <td>10.6+</td>
+                                        <td>MySQL 相容替代方案</td>
+                                    </tr>
+                                    <tr>
+                                        <td>資料庫 Database</td>
+                                        <td>SQLite</td>
+                                        <td>3.35+</td>
+                                        <td>小型專案適用</td>
+                                    </tr>
+                            
+                                    <!-- PHP Extensions -->
+                                    <tr>
+                                        <td rowspan="15">PHP 擴充套件<br>PHP Extensions</td>
+                                        <td>bcmath</td>
+                                        <td>必須 Required</td>
+                                        <td>高精度數值運算（例如金額計算）</td>
+                                    </tr>
+                                    <tr><td>ctype</td><td>必須 Required</td><td>字元類型檢查</td></tr>
+                                    <tr><td>fileinfo</td><td>必須 Required</td><td>檔案類型辨識</td></tr>
+                                    <tr><td>json</td><td>必須 Required</td><td>JSON 資料處理</td></tr>
+                                    <tr><td>mbstring</td><td>必須 Required</td><td>多位元字串處理</td></tr>
+                                    <tr><td>openssl</td><td>必須 Required</td><td>加密與安全通訊</td></tr>
+                                    <tr><td>pdo</td><td>必須 Required</td><td>資料庫連線</td></tr>
+                                    <tr><td>tokenizer</td><td>必須 Required</td><td>PHP 程式碼解析</td></tr>
+                                    <tr><td>xml</td><td>必須 Required</td><td>XML 處理</td></tr>
+                                    <tr><td>intl</td><td>必須 Required</td><td>多語系、日期、貨幣格式</td></tr>
+                                    <tr><td>curl</td><td>必須 Required</td><td>呼叫外部 API</td></tr>
+                                    <tr><td>session</td><td>必須 Required</td><td>Session 管理（登入狀態）</td></tr>
+                                    <tr><td>hash</td><td>必須 Required</td><td>密碼雜湊加密</td></tr>
+                                    <tr><td>gd</td><td>必須 Required</td><td>圖片處理（裁切、縮放）</td></tr>
+                                    <tr><td>zip</td><td>建議 Recommended</td><td>ZIP 壓縮與解壓縮</td></tr>
+         
+                                    <!-- OS -->
+                                    <tr>
+                                        <td>作業系統 OS</td>
+                                        <td>Linux</td>
+                                        <td>Ubuntu 22.04 LTS</td>
+                                        <td>建議正式環境使用</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
             
