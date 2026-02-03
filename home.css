@@ -44,6 +44,15 @@ div.service-card h3 {
     margin-bottom: 10px;
 }
 
+div.service-card table {
+    width: 100%;
+}
+
+div.service-card table th,
+div.service-card table td {
+    padding: 4px;
+}
+
 a.btn.contact {
     display: inline-block;
     padding: 0.875rem 2rem;
