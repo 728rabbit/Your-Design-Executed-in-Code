@@ -46,11 +46,13 @@ div.service-card h3 {
 
 div.service-card table {
     width: 100%;
+    border: 1px solid var(--icolor-gray);
 }
 
 div.service-card table th,
 div.service-card table td {
     padding: 4px;
+    border: 1px solid var(--icolor-gray);
 }
 
 a.btn.contact {
